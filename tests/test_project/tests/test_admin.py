@@ -202,7 +202,7 @@ class TestAdmin(AdminTestMixin, CreateMixin, TestCase):
         self.assertContains(
             response, 'Only added operators will have permission to access the project.'
         )
-        self.assertContains(response, 'https://github.com/openwisp/openwisp-utils/')
+        self.assertContains(response, 'https://github.com/ShreeshaRelysys/openwisp-utils/')
 
     def test_admin_theme_css_setting(self):
         # test for improper configuration : not a list
