@@ -1398,14 +1398,14 @@ If you need to use a customized admin site class, you can use this setting.
 ``OPENWISP_ADMIN_SITE_TITLE``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**default**: ``OpenWISP Admin``
+**default**: ``Admin Login``
 
 Title value used in the ``<title>`` HTML tag of the admin site.
 
 ``OPENWISP_ADMIN_SITE_HEADER``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**default**: ``OpenWISP``
+**default**: ``Admin``
 
 Heading text used in the main ``<h1>`` HTML tag (the logo) of the admin site.
 
